@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: husky
+  cloud:
+    config:
+      profile: ${config.profile:dev}
+      uri: http://127.0.0.1:8888
+      
+  devtools:
+    restart:
+      trigger-file: restart.txt
