@@ -12,4 +12,5 @@ public interface HuskyFeign {
 
 	@RequestMapping(value = "/local", method = RequestMethod.GET)
 	String husky();
+	
 }
